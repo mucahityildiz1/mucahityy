@@ -1,0 +1,63 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+
+  background-image: url(../images/pink.png);
+  background-repeat: no-repeat;
+  
+  background-position: top center;
+  background-size: cover;
+}
+
+.image {
+  
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: top center;
+  background-size: auto;
+  height: 100vh;
+}
+.page {
+  width: 920px;
+  height: 283px;
+  margin: auto;
+
+  text-align: center;
+  padding-top: 484px;
+ 
+  & h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 81px;
+    letter-spacing: -0.8999999761581421px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 24px;
+  }
+  & p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+.button {
+  width: 214px;
+  height: 64px;
+  border-radius: 32px;
+  margin-top: 40px;
+  background-color: #094bac;
+
+  & p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+  }
+}
