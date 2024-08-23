@@ -1,0 +1,68 @@
+@import url(reset.css);
+
+body {
+    background: linear-gradient(225deg, #A54343 0%, #E73535);
+    width: 1440px;
+    height: 1024px;
+}
+.biggy-burger-contanier {
+    width: 100%;
+    height: 100%;
+    background: url(../images/burger.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: flex;
+    align-items: center;
+}
+.cart-btn {
+    text-decoration: none;
+    border: 1px solid white;
+    display: inline block;
+    padding-right: 47px;
+    border-radius: 49px;
+
+}
+.cart {
+    width: 98px;
+    height: 98px;
+    background: #FFC107;
+    display: inline-block;
+    border-radius: 100%;
+    padding: 34px 0 0 34px;
+}
+.price {
+    font-family: "Montserrat" , sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: white;
+    margin-left: 24px;
+}
+.bigy-burger-info {
+    color: white;
+    width: 517px;
+    margin-left: 165px;
+
+ & h1 {
+    font-family: "Montserrat" , sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 127px;
+    letter-spacing: -1.5px;
+    text-align: center;
+    margin-bottom: 35px;
+ }
+ p {
+    font-family: "Montserrat" , sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-bottom: 35px;
+ } 
+ img {
+    display: block;
+ }
+}
